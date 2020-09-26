@@ -55,14 +55,14 @@ table tbody tr td {
   vertical-align: middle;
   border-left: 1px solid #626E7E;
   position: relative;
-  height: 15px;
+  height: 10px;
   cursor: pointer;
 }
 table tbody tr td:last-child {
   border-right: 1px solid #626E7E;
 }
 table tbody tr td.hour {
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0;
   color: #626E7E;
   background: #fff;
@@ -96,16 +96,16 @@ table tbody tr td.hour span {
     font-size: 1.2em;
     border-radius: 50%;
     width: 20px;
-    height: 20px;
-    margin: 0 auto 5px;
-    padding: 5px;
+    height: 5px;
+    margin: 0 auto 0px;
+    padding: 0px;
   }
   table thead tr th .day.active {
     background: #d1d5db;
     color: #626E7E;
   }
   table tbody tr td.hour {
-    font-size: 1.7em;
+    font-size: 1em;
   }
   table tbody tr td.hour span {
     transform: translateY(16px) rotate(270deg);
@@ -114,10 +114,32 @@ table tbody tr td.hour span {
   }
 }
 .scroll {
-  background-color: #fed9ff;
-  width: 840px;
+  background-color: #b07fb3;
+  width: 830px;
   height: 400px;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
+}
+
+
+table tbody .free{
+  background: #b27bfa;
+}
+table tbody .free2 {
+  background: #c199f7;
+}
+
+.friends {
+  position: absolute;
+  top: 150px;
+  right: 75px;
+  width: auto;
+  height: auto;
+}
+
+p {
+  text-align: left;
+  padding: 0px;
+  margin: 0;
 }
