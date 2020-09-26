@@ -5,6 +5,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div class="topnav">
+        <a href="#Requestfeed">Fit Me Up</a>
+        <a href="#postworkout">Post Workout</a>
+        <div class="dropdown">
+          <button class="dropbtn">Profile
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#calendar">Calendar</a>
+            <a href="#">Profile</a>
+            <a href="#">Preferences</a>
+            <a href="#">Settings</a>
+          </div>
+        </div>
+      </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
