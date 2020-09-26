@@ -1,0 +1,35 @@
+.requestfeed{
+    position: absolute;
+    height: 200px;
+    border-radius: 4%;
+    text-align: left;
+    padding: 10px;
+    background-color: #EED0F2;
+    width: 90%;
+    left: 60px;
+    top: 80px;
+}
+
+.requestfeed2{
+    position: absolute;
+    height: 200px;
+    border-radius: 4%;
+    text-align: left;
+    padding: 10px;
+    background-color: #EED0F2;
+    width: 90%;
+    left: 60px;
+    top: 350px;
+}
+
+.requestfeed3{
+    position: absolute;
+    height: 200px;
+    border-radius: 4%;
+    text-align: left;
+    padding: 10px;
+    background-color: #EED0F2;
+    width: 90%;
+    left: 60px;
+    top: 630px;
+}
