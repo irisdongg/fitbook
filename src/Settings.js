@@ -1,12 +1,11 @@
 import React from 'react';
-import "./Requestfeed.css";
 import "./App.css";
 
-function Requestfeed(props) {
+function Settings(props) {
     return (
         <>
         <div>
-            <p> requestfeed</p>
+            <p> settings</p>
         </div>
 
         </>
@@ -14,4 +13,4 @@ function Requestfeed(props) {
     );
 }
 
-export default Requestfeed;
+export default Settings;

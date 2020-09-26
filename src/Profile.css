@@ -1,0 +1,104 @@
+.page-header {
+    background: url("gradient.jpg") no-repeat;
+    background-size: 9000px 300px;
+    background-color: #FFFFFF;
+    z-index: 0;
+    min-height: 35vh;
+    max-height: 999px;
+    padding: 0;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden; }
+
+.profImage {
+    padding-top: 200px;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 210px;
+    width: 200px;
+}
+
+.row{
+    display: inline-flex;
+}
+
+.col{
+    flex: 45%;
+    padding: 50px;
+}
+.col1{
+    flex: 10%;
+    padding: 50px;
+}
+
+.interest-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #DFD9D9;
+}
+.interest-pic-bike{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #DFD9D9;
+}
+
+.info .content1{
+    position: absolute;
+    height: 300px;
+    border-radius: 10%;
+    transform: translate(-175%, -0%);
+    text-align: center;
+    padding: 10px;
+    background-color: #E3EAF5;
+    width: 350px;
+}
+
+.info .content2{
+    position: absolute;
+    height: 300px;
+    border-radius: 10%;
+    transform: translate(-55%, -0%);
+    text-align: center;
+    padding: 10px;
+    background-color: #C0ECFC;
+    width: 350px;
+}
+
+.info .content3{
+    position: absolute;
+    height: 300px;
+    border-radius: 10%;
+    transform: translate(70%, 0%);
+    text-align: center;
+    padding: 10px;
+    background-color: #E5C8F6;
+    width: 350px;
+}
+.streak{
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 200px;
+    width: 150px;
+    float:right;
+}
+.tenniscolor{
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 160px;
+    width: 160px;
+    float:right;
+}
+.silver{
+    padding-top: 25px;
+    padding-left: 20px;
+    height: 200px;
+    width: 110px;
+    float:right;
+}
+
+.spaceTop{
+    padding-top: 25px;
+}
